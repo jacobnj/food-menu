@@ -1,6 +1,9 @@
+import React from 'react';
+
 const Navbar = () => {
     return (
         <nav className="navbar">
+            <h1>The Indian Eatery</h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/starters">Starters</a>

@@ -1,0 +1,89 @@
+{
+    "main": [
+        {
+            "id": 1,
+            "title": "Chicken Biriyani",
+            "description": "The best food to be cherished in our eatery",
+            "type": "NV",
+            "category": "Main Course",
+            "image": "/images/biriyani.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Vegetable Biriyani",
+            "description": "The best food to be cherished in our eatery",
+            "type": "VV",
+            "category": "Main Course",
+            "image": "/images/biriyani.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Mutton Biriyani",
+            "description": "The best food to be cherished in our eatery",
+            "type": "NV",
+            "category": "Main Course",
+            "image": "/images/biriyani.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Thali",
+            "description": "The best food to be cherished in our eatery",
+            "type": "VV",
+            "category": "Main Course",
+            "image": "/images/thali.jpg"
+        }
+    ],
+    "sweets": [
+        {
+            "id": 4,
+            "title": "Halva",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Sweet",
+            "image": "/images/halva.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Kesari",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Sweet",
+            "image": "/images/kesari.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Payasam",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Sweet",
+            "image": "/images/payasam.jpg"
+        }
+    ],
+    "deserts": [
+        {
+            "id": 7,
+            "title": "Chilli",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Desserts",
+            "image": "/images/chilli.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Gobi",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Desserts",
+            "image": "/images/gobi.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Pongal",
+            "description": "The best sweet to be cherished in our eatery",
+            "type": "VV",
+            "category": "Desserts",
+            "image": "/images/pongal.jpg"
+        }
+    ]
+
+}
