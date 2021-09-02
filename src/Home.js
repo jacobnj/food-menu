@@ -6,10 +6,13 @@ const Home = () => {
     
     return (
         <div className="home">
+            <p>Home</p>
+        </div>
+        /*<div className="home">
             <Foodlist data={data.main}/>
             <Foodlist data={data.sweets}/>
             <Foodlist data={data.deserts}/>
-        </div>
+        </div>*/
     );     
 }
  
