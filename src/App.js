@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Contact from './components/Contact';
+import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar2 from './components/Navbar2';
+import Navbar2 from './Components/Navbar2';
 import Home from './Home';
 import Foodlist from './Foodlist';
 import data from './data/data.json';
@@ -22,7 +22,7 @@ function App() {
 					</div>
 				</div>
 				<div className="content-grid">
-					<div>
+					<div className="sidebar">
 						<Navbar2 />
 					</div>
 					<div>
