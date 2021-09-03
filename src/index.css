@@ -35,6 +35,15 @@
   grid-template-columns: 20% 80%;
   padding: 20px 20px 20px 20px;
 }
+.menu-content-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  margin: 10px;
+}
 .link-item a {
   padding: 20px 20px 20px 20px;
+}
+.desc {
+  padding: 10px 30px 20px 30px;
 }

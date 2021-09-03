@@ -4,13 +4,12 @@ const Foodlist = ({data}) => {
     //const data = props.data;
 
     return (
-        <div className="content-grid">
+        <div className="menu-content-grid">
             {data.map((data) => (
                 <div className="data" key={data.id}>
-                    <h2>{data.title}</h2>
+                    <h3>{data.title}</h3>
                     <div className="menu-image"><img src={data.image} alt="" /></div>
-                    <p>{data.description}</p>
-                    <p>{data.category}</p>
+                    <div className="desc">{data.description}</div>
                 </div>
             ))}  
         </div>    
