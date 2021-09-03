@@ -1,19 +1,11 @@
 import React from 'react';
-import data from './data/data.json';
-import Foodlist from './Foodlist';
 
-const Home = () => {
-    
+function Home() {
     return (
-        <div className="home">
-            <p>Home</p>
-        </div>
-        /*<div className="home">
-            <Foodlist data={data.main}/>
-            <Foodlist data={data.sweets}/>
-            <Foodlist data={data.deserts}/>
-        </div>*/
-    );     
+             <div className="front-image">
+				<img src="/images/front.jpg" alt="" />
+            </div>
+    )
 }
- 
-export default Home;
+
+export default Home
