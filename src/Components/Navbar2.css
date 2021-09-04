@@ -1,4 +1,10 @@
-.navbar2 {
-    max-width: 250px;
-    justify-content: start;
+.menu-bar {
+    max-width: auto;
+}
+.menu-items {
+    list-style-type: none;
+    border-bottom: 1px solid white;
+}
+.menu-items:hover {
+    box-shadow: 1px 3px 5px grey;
 }

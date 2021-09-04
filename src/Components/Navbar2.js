@@ -5,19 +5,18 @@ import './Navbar2.css';
 
 const Navbar2 = () => {
     return (
-        <nav className="sidebar-m">
-            <h3>The Menu</h3>
-                {Menubar.map((item, index) => {
-                    return (
-                        <div className="menu-bar">
-                            <ul className="menu-items">
-                                <li key={index} className={item.cName}>
-                                    <Link to={item.path}>{item.title}</Link>
-                                </li>
-                            </ul>
-                        </div>    
-                    );
-                })}
+        <nav>
+            {Menubar.map((item, index) => {
+                return (
+                    <div className="menu-bar">
+                        <ul className="menu-items">
+                            <li key={index} className={item.cName}>
+                                <Link to={item.path}>{item.title}</Link>
+                            </li>
+                        </ul>
+                    </div>    
+                );
+            })}
         </nav>
     );
 }

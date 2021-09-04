@@ -4,7 +4,8 @@
   font-family: "Quicksand";
 }
 .front-image img {
-  height: 500px;
+  max-width: 100%;
+  height: auto;
 }
 .menu-image img {
   height: 100px;
@@ -18,34 +19,18 @@
   display: grid;
   grid-template-rows: auto auto;
 }
-
-@media (max-width: 400px) {
-  .app-grid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-  }
-  .navbar-grid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-  }
-  .content-grid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-  }
-  .menu-content-grid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-  }
-}
-
 .navbar-grid {
   display: grid;
   grid-template-columns: auto auto;
+  background-color: blueviolet;
+  color: aliceblue;
+  align-items: center;
 }
 .content-grid {
   display: grid;
   grid-template-columns: 20% 80%;
-  padding: 20px 20px 20px 20px;
+  /* padding: 20px 20px 20px 20px; */
+  background-color: rgb(197, 245, 229);
 }
 .menu-content-grid {
   display: grid;
@@ -53,24 +38,58 @@
   text-align: center;
   margin: 10px;
 }
+@media (max-width: 600px) {
+  /* .app-grid {
+    grid-template-columns: auto;
+  } */
+  .navbar-grid {
+    grid-template-columns: auto;
+  }
+  /* .content-grid {
+    grid-template-columns: auto auto;
+  } */
+  .menu-content-grid {
+    grid-template-columns: auto;
+  }
+}
+.link-item {
+  align-items: baseline;
+}
 .link-item a {
   padding: 20px 20px 20px 20px;
+  color: aliceblue;
 }
 .desc {
   padding: 10px 30px 20px 30px;
 }
-.sidebar {
-  width: 100vw;
-  height: 100vh;
-}
-.sidebar-m {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 250px;
-  background-color: #323F52;
-}
 body {
   margin: 0;
   padding : 0;
+}
+.sidebar {
+  background-color: rgb(16, 92, 6);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: aliceblue;
+  font-weight: bolder;
 }

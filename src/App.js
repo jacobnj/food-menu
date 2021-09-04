@@ -17,7 +17,7 @@ function App() {
 					<div>
 						<h1>The Indian Eatery</h1>
 					</div>
-					<div>
+					<div className="link-item">
 						<Navbar />
 					</div>
 				</div>
